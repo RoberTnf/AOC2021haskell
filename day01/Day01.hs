@@ -1,8 +1,6 @@
 -- First time doing haskell in a while.
 -- lsp catched some simplifications, looks nice!
 
-import System.IO ()
-
 main :: IO ()
 main = do
   rawContent <- readFile "input.txt"
